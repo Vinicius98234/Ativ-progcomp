@@ -1,10 +1,10 @@
 print ("Calculadora de IMC")
 
-altura = float(input("Informe sua Altura: "))
+altura = int(input("Informe sua Altura: "))
 
-peso = float(input("Informe seu Peso: "))
+peso = int(input("Informe seu Peso: "))
 
-imc = (peso) / (altura**2)
+imc = (peso) / ((altura/100)**2)
 
 print (f"Seu IMC é: {imc}")
 
